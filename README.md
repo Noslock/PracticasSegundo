@@ -1,2 +1,2 @@
-# Pr-cticasSegundo
+# PracticasSegundo
 Prácticas de segundo de la universidad.
