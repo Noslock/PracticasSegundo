@@ -1,0 +1,29 @@
+#pragma once
+
+#define MAX 99999
+
+class Contador
+{
+private:
+  static int cuenta;
+  static int min;
+  static int media;
+  static int max;
+  static int acumulador;
+  static int test;
+
+public:
+  Contador();
+  ~Contador();
+
+  void reset();
+  void start();
+  void end();
+  void show();
+
+  Contador operator++()
+  {
+    cuenta++;
+    return (*this);
+  }
+};
